@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidPro/NumberGuessingGame/app/src/main/res/drawable/my_button_bg.xml" value="0.5475" />
+        <entry key="..\:/AndroidPro/NumberGuessingGame/app/src/main/res/layout/activity_game.xml" value="0.5009057971014492" />
         <entry key="..\:/AndroidPro/NumberGuessingGame/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
         <entry key="..\:/AndroidPro/NumberGuessingGame/app/src/main/res/layout/activity_splash.xml" value="0.5" />
       </map>
