@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NumberGuessingGame</string>
+    <string name="info">Just guess the number! Shoot a correct one in 10 attempts.</string>
 </resources>
