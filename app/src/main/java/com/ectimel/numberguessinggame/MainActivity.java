@@ -41,14 +41,17 @@ public class MainActivity extends AppCompatActivity {
                 } else if (radio2.isChecked()) {
                     i.putExtra("three", true);
                     startActivity(i);
+                    finish();
 
                 } else if (radio1.isChecked()) {
                     i.putExtra("two", true);
                     startActivity(i);
+                    finish();
 
                 } else if (radio3.isChecked()) {
                     i.putExtra("four", true);
                     startActivity(i);
+                    finish();
                 }
 
             }
