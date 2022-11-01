@@ -19,7 +19,7 @@ public class GameActivity extends AppCompatActivity {
     Button check;
 
     boolean twoDigits, threeDigits, fourDigits;
-    int randomInt = 10;
+    int randomInt;
     Random r = new Random();
 
     int reamingAttemptsInt = 10;
@@ -47,13 +47,13 @@ public class GameActivity extends AppCompatActivity {
         threeDigits = getIntent().getBooleanExtra("three", false);
         fourDigits = getIntent().getBooleanExtra("four", false);
 
-
-
-
-        Log.d("aaa", print(twoDigits));
-        Log.d("aaa", print(threeDigits));
-        Log.d("aaa", print(fourDigits));
-
+        if(twoDigits){
+            randomInt = r.nextInt(90) + 10;
+        } else if(threeDigits){
+            randomInt = r.nextInt(900) + 100;
+        } else if (fourDigits){
+            randomInt = r.nextInt(9000) +1000;
+        }
 
 
         Intent i = new Intent(GameActivity.this, PlayAgainActivity.class);

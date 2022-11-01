@@ -39,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
                 if (!radio1.isChecked() && !radio2.isChecked() && !radio3.isChecked()) {
                     Snackbar.make(view, "Please, select mode", Snackbar.LENGTH_SHORT).show();
                 } else if (radio2.isChecked()) {
-                    i.putExtra("two", true);
+                    i.putExtra("three", true);
                     startActivity(i);
 
                 } else if (radio1.isChecked()) {
-                    i.putExtra("one", true);
+                    i.putExtra("two", true);
                     startActivity(i);
 
                 } else if (radio3.isChecked()) {
-                    i.putExtra("three", true);
+                    i.putExtra("four", true);
                     startActivity(i);
                 }
 
